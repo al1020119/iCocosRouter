@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71211AEE1E28BE55002C3C42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71211AED1E28BE55002C3C42 /* main.m */; };
+		71211AF11E28BE55002C3C42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71211AF01E28BE55002C3C42 /* AppDelegate.m */; };
+		71211AF41E28BE55002C3C42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71211AF31E28BE55002C3C42 /* ViewController.m */; };
+		71211AF71E28BE55002C3C42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71211AF51E28BE55002C3C42 /* Main.storyboard */; };
+		71211AF91E28BE55002C3C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71211AF81E28BE55002C3C42 /* Assets.xcassets */; };
+		71211AFC1E28BE55002C3C42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71211AFA1E28BE55002C3C42 /* LaunchScreen.storyboard */; };
+		71211B0B1E28BE76002C3C42 /* iCocosPlistReadUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 71211B051E28BE76002C3C42 /* iCocosPlistReadUtil.m */; };
+		71211B0C1E28BE76002C3C42 /* iCocosRouterError.m in Sources */ = {isa = PBXBuildFile; fileRef = 71211B071E28BE76002C3C42 /* iCocosRouterError.m */; };
+		71211B0D1E28BE76002C3C42 /* iCocosUrlRouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71211B081E28BE76002C3C42 /* iCocosUrlRouter.plist */; };
+		71211B0E1E28BE76002C3C42 /* iCocosRouterHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 71211B0A1E28BE76002C3C42 /* iCocosRouterHandler.m */; };
+		71211B111E28BE83002C3C42 /* iCocosLoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71211B101E28BE83002C3C42 /* iCocosLoverViewController.m */; };
+		71211B141E28C03E002C3C42 /* iCocosRouterDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 71211B131E28C03E002C3C42 /* iCocosRouterDefault.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71211AE91E28BE55002C3C42 /* iCocosRouterTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCocosRouterTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71211AED1E28BE55002C3C42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71211AEF1E28BE55002C3C42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71211AF01E28BE55002C3C42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71211AF21E28BE55002C3C42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71211AF31E28BE55002C3C42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71211AF61E28BE55002C3C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71211AF81E28BE55002C3C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71211AFB1E28BE55002C3C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71211AFD1E28BE55002C3C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71211B041E28BE76002C3C42 /* iCocosPlistReadUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosPlistReadUtil.h; sourceTree = "<group>"; };
+		71211B051E28BE76002C3C42 /* iCocosPlistReadUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosPlistReadUtil.m; sourceTree = "<group>"; };
+		71211B061E28BE76002C3C42 /* iCocosRouterError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosRouterError.h; sourceTree = "<group>"; };
+		71211B071E28BE76002C3C42 /* iCocosRouterError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosRouterError.m; sourceTree = "<group>"; };
+		71211B081E28BE76002C3C42 /* iCocosUrlRouter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iCocosUrlRouter.plist; sourceTree = "<group>"; };
+		71211B091E28BE76002C3C42 /* iCocosRouterHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosRouterHandler.h; sourceTree = "<group>"; };
+		71211B0A1E28BE76002C3C42 /* iCocosRouterHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosRouterHandler.m; sourceTree = "<group>"; };
+		71211B0F1E28BE83002C3C42 /* iCocosLoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosLoverViewController.h; sourceTree = "<group>"; };
+		71211B101E28BE83002C3C42 /* iCocosLoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosLoverViewController.m; sourceTree = "<group>"; };
+		71211B121E28C03E002C3C42 /* iCocosRouterDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCocosRouterDefault.h; sourceTree = "<group>"; };
+		71211B131E28C03E002C3C42 /* iCocosRouterDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCocosRouterDefault.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71211AE61E28BE55002C3C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71211AE01E28BE55002C3C42 = {
+			isa = PBXGroup;
+			children = (
+				71211AEB1E28BE55002C3C42 /* iCocosRouterTools */,
+				71211AEA1E28BE55002C3C42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71211AEA1E28BE55002C3C42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71211AE91E28BE55002C3C42 /* iCocosRouterTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71211AEB1E28BE55002C3C42 /* iCocosRouterTools */ = {
+			isa = PBXGroup;
+			children = (
+				71211B031E28BE76002C3C42 /* iCocosRouter */,
+				71211AEF1E28BE55002C3C42 /* AppDelegate.h */,
+				71211AF01E28BE55002C3C42 /* AppDelegate.m */,
+				71211AF21E28BE55002C3C42 /* ViewController.h */,
+				71211AF31E28BE55002C3C42 /* ViewController.m */,
+				71211B0F1E28BE83002C3C42 /* iCocosLoverViewController.h */,
+				71211B101E28BE83002C3C42 /* iCocosLoverViewController.m */,
+				71211AF51E28BE55002C3C42 /* Main.storyboard */,
+				71211AF81E28BE55002C3C42 /* Assets.xcassets */,
+				71211AFA1E28BE55002C3C42 /* LaunchScreen.storyboard */,
+				71211AFD1E28BE55002C3C42 /* Info.plist */,
+				71211AEC1E28BE55002C3C42 /* Supporting Files */,
+			);
+			path = iCocosRouterTools;
+			sourceTree = "<group>";
+		};
+		71211AEC1E28BE55002C3C42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71211AED1E28BE55002C3C42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71211B031E28BE76002C3C42 /* iCocosRouter */ = {
+			isa = PBXGroup;
+			children = (
+				71211B041E28BE76002C3C42 /* iCocosPlistReadUtil.h */,
+				71211B051E28BE76002C3C42 /* iCocosPlistReadUtil.m */,
+				71211B061E28BE76002C3C42 /* iCocosRouterError.h */,
+				71211B071E28BE76002C3C42 /* iCocosRouterError.m */,
+				71211B081E28BE76002C3C42 /* iCocosUrlRouter.plist */,
+				71211B091E28BE76002C3C42 /* iCocosRouterHandler.h */,
+				71211B0A1E28BE76002C3C42 /* iCocosRouterHandler.m */,
+				71211B121E28C03E002C3C42 /* iCocosRouterDefault.h */,
+				71211B131E28C03E002C3C42 /* iCocosRouterDefault.m */,
+			);
+			path = iCocosRouter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71211AE81E28BE55002C3C42 /* iCocosRouterTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71211B001E28BE55002C3C42 /* Build configuration list for PBXNativeTarget "iCocosRouterTools" */;
+			buildPhases = (
+				71211AE51E28BE55002C3C42 /* Sources */,
+				71211AE61E28BE55002C3C42 /* Frameworks */,
+				71211AE71E28BE55002C3C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCocosRouterTools;
+			productName = iCocosRouterTools;
+			productReference = 71211AE91E28BE55002C3C42 /* iCocosRouterTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71211AE11E28BE55002C3C42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = iCocos;
+				TargetAttributes = {
+					71211AE81E28BE55002C3C42 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = LW2EWRBLD3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 71211AE41E28BE55002C3C42 /* Build configuration list for PBXProject "iCocosRouterTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71211AE01E28BE55002C3C42;
+			productRefGroup = 71211AEA1E28BE55002C3C42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71211AE81E28BE55002C3C42 /* iCocosRouterTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71211AE71E28BE55002C3C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71211AFC1E28BE55002C3C42 /* LaunchScreen.storyboard in Resources */,
+				71211AF91E28BE55002C3C42 /* Assets.xcassets in Resources */,
+				71211AF71E28BE55002C3C42 /* Main.storyboard in Resources */,
+				71211B0D1E28BE76002C3C42 /* iCocosUrlRouter.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71211AE51E28BE55002C3C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71211B0B1E28BE76002C3C42 /* iCocosPlistReadUtil.m in Sources */,
+				71211AF41E28BE55002C3C42 /* ViewController.m in Sources */,
+				71211B0C1E28BE76002C3C42 /* iCocosRouterError.m in Sources */,
+				71211B0E1E28BE76002C3C42 /* iCocosRouterHandler.m in Sources */,
+				71211B111E28BE83002C3C42 /* iCocosLoverViewController.m in Sources */,
+				71211B141E28C03E002C3C42 /* iCocosRouterDefault.m in Sources */,
+				71211AF11E28BE55002C3C42 /* AppDelegate.m in Sources */,
+				71211AEE1E28BE55002C3C42 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71211AF51E28BE55002C3C42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71211AF61E28BE55002C3C42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71211AFA1E28BE55002C3C42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71211AFB1E28BE55002C3C42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71211AFE1E28BE55002C3C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71211AFF1E28BE55002C3C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71211B011E28BE55002C3C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LW2EWRBLD3;
+				INFOPLIST_FILE = iCocosRouterTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iCocos.iCocosRouterTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71211B021E28BE55002C3C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LW2EWRBLD3;
+				INFOPLIST_FILE = iCocosRouterTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iCocos.iCocosRouterTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71211AE41E28BE55002C3C42 /* Build configuration list for PBXProject "iCocosRouterTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71211AFE1E28BE55002C3C42 /* Debug */,
+				71211AFF1E28BE55002C3C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71211B001E28BE55002C3C42 /* Build configuration list for PBXNativeTarget "iCocosRouterTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71211B011E28BE55002C3C42 /* Debug */,
+				71211B021E28BE55002C3C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71211AE11E28BE55002C3C42 /* Project object */;
+}
